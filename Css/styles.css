@@ -1,0 +1,45 @@
+body {
+    display: flexbox;
+    background-color: rgb(112, 109, 109);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+   
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-size: 30pt;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#passwords {
+    margin-bottom: 20px;
+}
+
+#password-list {
+    list-style: none;
+    padding: 0;
+}
+
+#password-list li {
+    margin-bottom: 10px;
+}
+
+#add-password input, #add-password button {
+    margin: 5px;
+    padding: 5px;
+}
+button{
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer 
+}
